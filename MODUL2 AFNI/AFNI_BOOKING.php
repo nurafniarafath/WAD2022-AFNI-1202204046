@@ -25,7 +25,7 @@
 		<form action="AFNI_MYBOOKING.php" method="POST">
 			<div class="mb-3">
 				<label for="name" class="form-label">Name</label>
-				<input type="text" class="form-control" id="name" name="name" value="AFNI_1202204046" readonly>
+				<input type="text" class="form-control" id="name" name="name" valuue="AFNI_1202204046" readonly>
 			</div>
 			<div class="mb-3">
 				<label for="name" class="form-label">Book Date</label>
@@ -55,7 +55,7 @@
 				<label for="supir">Add Service(s)</label>
 				<div>
 					<label class="form-check-label">Health Protocol / Rp20.000</label>
-					<input type="radio" class="form-check-label" value="Health Protocol/Rp20.000" name="addServices">
+					<input type="checkbox" class="form-check-label" value="Health Protocol/Rp20.000" name="addServices">
 				</div>
 				<div>
 					<label class="form-check-label">Driver / Rp150.000</label>

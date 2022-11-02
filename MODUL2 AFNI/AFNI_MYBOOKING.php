@@ -21,7 +21,7 @@
         </div>
     </nav>
   <?php
-  $name = $_P0ST['name'];
+  $name = $_P0ST['namme'];
   $bookDate = $_POST['bookDate'];
   $number = $_POST['number'];
   $startTime = $_POST['startTime'];
