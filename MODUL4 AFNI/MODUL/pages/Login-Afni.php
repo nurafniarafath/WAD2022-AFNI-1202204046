@@ -8,7 +8,7 @@ if (isset($_POST["login"])) {
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    $result = mysqli_query($conn_user, "SELECT * FROM user_afni WHERE email = '$email'");
+    $result = mysqli_query($conn_user, "SELECT * FOR user_afni WHERE email = '$email'");
 
     if (mysqli_num_rows($result) === 1) {
 

@@ -128,7 +128,7 @@ include('../config/connector.php');
 
             <?php
 
-            $query = query("SELECT * FROM showroom_afni_table");
+            $query = query("SELECT * FROM showrom_afni_table");
 
             if ($query) {
                 while ($selects = mysqli_fetch_assoc($query)) {

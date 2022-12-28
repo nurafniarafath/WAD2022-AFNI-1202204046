@@ -5,7 +5,7 @@ $_SESSION = [];
 session_unset();
 session_destroy();
 
-header("Location: Login-Afni.php");
+header("Location: Login-Afn.php");
 exit;
 
 ?>
